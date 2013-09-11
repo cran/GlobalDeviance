@@ -1,0 +1,6 @@
+import(snowfall)
+
+export(.mchoose, .nPermsG, .nPerms, .allpermsG, .allperms, 
+ResamplelogLik, varwiselogLik, varwiselogLik.regression,
+PermTest, expr.dev.test, fisher, liptak, tippett, lancaster)
+S3method(summary, dev.test)
