@@ -42,20 +42,8 @@ function(xx, D.full, glm.family, nperm.used, covars, use.permMat, permMat, snowf
 	}
 			
 	if(snowfall.args$parallel) {
-		# Eingabevariablen
-		sfExport("D.var.adjust")
-		sfExport("D.var.perm")
-		sfExport("xx")
-		sfExport("glm.family")
-		sfExport("ord.perm")
-		sfExport("N.Subjects")
-		sfExport("N.covars")
-		sfExport("covars")
-		# Funktionen
-		sfExport("varwiselogLik")	
-		sfExport("varwiselogLik.regression")
-		# Ausgabevariablen
-		sfExport("res.perm.tmp")
+		# Eingabevariablen und Ausgabevariablen
+		sfExport("D.var.adjust", "D.var.perm", "xx", "glm.family", "ord.perm", "N.Subjects", "N.covars", "covars", "res.perm.tmp")
 		# Zufallszahlengenerator
 		sfClusterSetupRNG(seed=snowfall.seed)
 	}

@@ -76,7 +76,7 @@ t.random<-expr.dev.test(xx=t(data.frame(Y1, Y2)), formula.full=~ A + B + C,
 	glm.family=poisson(link="log"), perm=1000, method="permutation", cf="fisher", 
 	snowfall.args=list(parallel=TRUE), snowfall.seed=54321)
 
-summary(t.random)
+summary(t.random, digits=3)
 
 
 
@@ -109,9 +109,9 @@ t.rossi2<-expr.dev.test(xx=xx, formula.full=formula.full, formula.red=formula.re
 	D.red=NULL, model.dat, test.vars=test.vars, glm.family=poisson(link="log"), 
 	perm=100, method="chisqstat", cf="fisher")
 
-summary(t.rossi1, digits=4)
+summary(t.rossi1, digits=2)
 
-summary(t.rossi2)
+summary(t.rossi2, digits=3)
 
 }
 }

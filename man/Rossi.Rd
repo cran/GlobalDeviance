@@ -135,9 +135,9 @@ t.rossi2<-expr.dev.test(xx=xx, formula.full=formula.full, formula.red=formula.re
 	 model.dat=model.dat, test.vars=test.vars, glm.family=poisson(link="log"), 
 	perm=100, method="chisqstat", cf="fisher")
 
-summary(t.rossi1)
+summary(t.rossi1, digits=2)
 
-summary(t.rossi2)
+summary(t.rossi2, digits=3)
 }
 }
 

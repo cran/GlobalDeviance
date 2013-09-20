@@ -1,8 +1,8 @@
-9e3104ae2bc74d8b1459d4d25fa8b6fe *DESCRIPTION
+71ae05eea4a26aa76287cda342956288 *DESCRIPTION
 41e9d3068feb2f731b0f9d7c6187170d *NAMESPACE
 992354e2851c30b3def60e813d87bf66 *R/GlobalDeviance-internal.R
 56a5f8f4cbdd0b662430813d1274c653 *R/PermTest.R
-264eb8481a641fb8b142fe0a9607cc1f *R/ResamplelogLik.R
+234252043d108aaf6b15b13fe453b771 *R/ResamplelogLik.R
 3eb5403711a9c17b5678938a0c74c228 *R/expr.dev.test.R
 ffc23ce9aa8f11c77127a397a9853e5c *R/fisher.R
 4fe45c225058954cac1652876428b6a7 *R/lancaster.R
@@ -14,10 +14,10 @@ e784fe1aa0d2763ecb8cd6fa85b8c277 *R/tippett.R
 9b84a5beb9bacd5939b554055608bdd5 *data/Rossi.rda
 20d6ca792e730512839f689abb93265c *man/Combining_Functions.Rd
 665d72c307cf015bb613a66d1ab0dca9 *man/Functions_for_Permutation.Rd
-d0d896be06bc0ab2f082879b36a3abd9 *man/GlobalDeviance.Rd
+1ef953b12c0e03c7f9f52bfc461ebbc8 *man/GlobalDeviance.Rd
 ac1ba571e9bdd1f50322094e873f5434 *man/PermTest.Rd
 35eb7d3e136ed087fb52c0143f56d305 *man/ResamplelogLik.Rd
-e346f2adbef71de9d9ac1303edb367d2 *man/Rossi.Rd
-8137cbbbb9e0f76bffb6c6ce206d3d85 *man/expr.dev.test.Rd
+47d475b19914d54b2f37a996f6c5fac8 *man/Rossi.Rd
+b9ff7da22602ef0b9c26a52e687e511d *man/expr.dev.test.Rd
 5c9f4a63aad3c6a5c6e00819ab4405e3 *man/summary.dev.test.Rd
 a15922f8bb1429a54ca61d48b7748dba *man/varwiselogLik.Rd
